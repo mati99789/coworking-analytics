@@ -3,8 +3,8 @@ kind: ConfigMap
 metadata:
   name: analytics-config
 data:
-  DB_HOST: postgresql-service
+  DB_HOST: my-db-postgresql
   DB_USERNAME: postgres
   DB_PORT: "5432"
-  DB_NAME: coworking
+  DB_NAME: postgres
   APP_PORT: "5153"
