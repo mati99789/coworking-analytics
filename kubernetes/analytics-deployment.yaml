@@ -29,7 +29,7 @@ spec:
       containers:
         - name: analytics
           image: 448037225605.dkr.ecr.us-east-1.amazonaws.com/analytics:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 5153
 
