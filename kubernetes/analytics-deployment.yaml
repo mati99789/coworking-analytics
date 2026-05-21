@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: analytics
-          image: 448037225605.dkr.ecr.us-east-1.amazonaws.com/analytics@sha256:703bc65d91710338d6769931b776d75520e235fe2cf6315163e5416584a253ab
+          image: 448037225605.dkr.ecr.us-east-1.amazonaws.com/analytics:1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 5153
