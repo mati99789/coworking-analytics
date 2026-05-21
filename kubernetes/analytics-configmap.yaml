@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: analytics-config
+data:
+  DB_HOST: postgresql-service
+  DB_USERNAME: postgres
+  DB_PORT: "5432"
+  DB_NAME: coworking
+  APP_PORT: "5153"
